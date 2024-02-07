@@ -33,6 +33,12 @@ a {
   font-size: 22px;
 }
 
+.navbar li:first-child {
+  padding-left: 0px;
+
+  font-size: 22px;
+}
+
 .navbar a {
   color: white;
 
