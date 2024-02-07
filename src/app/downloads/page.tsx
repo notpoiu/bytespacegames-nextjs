@@ -1,5 +1,11 @@
 import Message from '../components/Message';
 import './downloads.css';
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "bytespace - downloads",
+  description: "my personal hub for programming, modding, and game dev. take a look around!",
+};
 
 export default function downloads() {
     return (
