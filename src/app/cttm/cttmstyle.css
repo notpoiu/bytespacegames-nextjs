@@ -1,0 +1,11 @@
+.cttmdownloadwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

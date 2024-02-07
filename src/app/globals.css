@@ -1,0 +1,60 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: #00CCFF;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #121212;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  margin-top: 0px;
+
+  width: 100%;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+  align-items: center;
+}
+
+.navbar li {
+  padding-left: 10px;
+
+  font-size: 22px;
+}
+
+.navbar a {
+  color: white;
+
+  transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.navbar a:hover {
+  color: #00CCFF;
+
+  transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.messagediv {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.credit {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+}
