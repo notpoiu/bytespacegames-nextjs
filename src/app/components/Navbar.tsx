@@ -8,7 +8,7 @@ const pages = {
 export default function Navbar() {
     return (<ul className="navbar">
         {Object.entries(pages).map(([name, href]) => (
-            <li className="navbaritem">
+            <li key={name} className="navbaritem">
                 <a href={href}>{name}</a>
             </li>
         ))}

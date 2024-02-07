@@ -22,8 +22,8 @@ export default function cttmm() {
     <div className="messagediv">
         <h1>click to ten mod manager</h1>
         <div className="cttmdownloadwrapper">
-          {Object.keys(versions).map((version) => (
-              <p>|<a href="{versions[version]}">{version}</a>|</p>
+          {Object.keys(versions).map((version: string) => (
+              <p key={version}>|<a href={versions[version as keyof typeof versions]}>{version}</a>|</p>
           ))}
         </div>
         <a href="/" className="backlink">back</a>
