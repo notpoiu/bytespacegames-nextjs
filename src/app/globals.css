@@ -33,7 +33,7 @@ a {
   font-size: 22px;
 }
 
-.navbar li:first-child {
+.navbar:first-child {
   padding-left: 0px;
 
   font-size: 22px;
